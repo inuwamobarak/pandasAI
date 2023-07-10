@@ -46,6 +46,11 @@ df.head()
 df.plot(kind='scatter', x='column1', y='column2')
 ```
 
+![download (14)](https://github.com/inuwamobarak/pandasAI/assets/65142149/04effe01-ac26-4074-bf05-fc957ddc38a2)
+
+![download (12)](https://github.com/inuwamobarak/pandasAI/assets/65142149/88f76576-5ed8-41d6-92f5-25440abfd30c)
+
+
 ## Contributing
 Contributions to pandasAI are welcome. To contribute, follow these steps:
 1. Fork the repository.
