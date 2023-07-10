@@ -1,6 +1,6 @@
 # pandasAI
 
-![GitHub repo size](https://img.shields.io/github/inuwamobarak/pandasAI)
+![GitHub repo size](https://img.shields.io/github/repo-size/inuwamobarak/pandasAI)
 ![GitHub stars](https://img.shields.io/github/stars/inuwamobarak/pandasAI?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/inuwamobarak/pandasAI?style=social)
 ![GitHub](https://img.shields.io/github/license/inuwamobarak/pandasAI)
