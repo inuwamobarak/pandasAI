@@ -31,20 +31,48 @@ To use the PandasAI library, follow these steps:
 3. Perform data analysis tasks by interacting with the data using text prompts and commands.
 4. Utilize available functions and methods provided by PandasAI for data manipulation, exploration, visualization, and more.
 
-## Examples
-The following examples demonstrate how pandasAI simplifies data analysis tasks:
+# Getting Started with Pandas AI
+
+This guide will walk you through the process of getting started with PandasAI. There are two approaches you can take to use PandasAI: using LangChain models and a direct implementation.
+
+## Using LangChain Models
+
+To use LangChain models, you first need to install the Langchain package:
+
+```shell
+pip install langchain
+```
+
+Once installed, you can instantiate a LangChain object in your code:
 
 ```python
-import pandasAI as pdai
+from pandasai import PandasAI
+from langchain.llms import OpenAI
 
-# Load dataset
-df = pdai.read_csv('dataset.csv')
-
-# Perform data analysis tasks
-df.describe()
-df.head()
-df.plot(kind='scatter', x='column1', y='column2')
+langchain_llm = OpenAI(openai_api_key="my-openai-api-key")
+pandasai = PandasAI(llm=langchain_llm)
 ```
+
+With these steps, your environment is now ready, and PandasAI will automatically utilize the LangChain llm and convert it to a PandasAI llm.
+
+## Direct Implementation (Without LangChain)
+
+If you prefer a direct implementation without using LangChain, follow these steps:
+
+1. Start by installing PandasAI as it may not be preinstalled like Pandas:
+
+```shell
+pip install pandasai
+```
+
+2. Another crucial requirement is an OpenAI API key to use PandasAI. You can create an API key with an account on the OpenAI platform. Visit [OpenAI Account API Keys](https://platform.openai.com/account/api-keys) to create a key.
+
+Make sure to keep your API key secure and follow best practices for handling API keys.
+
+Once you have completed these steps, you can start using PandasAI for your data analysis tasks.
+
+## Example Output
+The following examples demonstrate how pandasAI simplifies data analysis tasks:
 
 ![download (14)](https://github.com/inuwamobarak/pandasAI/assets/65142149/04effe01-ac26-4074-bf05-fc957ddc38a2)
 
