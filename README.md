@@ -1,9 +1,9 @@
 # pandasAI
 
-![GitHub repo size](https://img.shields.io/github/repo-size/your-username/pandasAI)
-![GitHub stars](https://img.shields.io/github/stars/your-username/pandasAI?style=social)
-![GitHub forks](https://img.shields.io/github/forks/your-username/pandasAI?style=social)
-![GitHub](https://img.shields.io/github/license/your-username/pandasAI)
+![GitHub repo size](https://img.shields.io/github/inuwamobarak/pandasAI)
+![GitHub stars](https://img.shields.io/github/stars/inuwamobarak/pandasAI?style=social)
+![GitHub forks](https://img.shields.io/github/forks/inuwamobarak/pandasAI?style=social)
+![GitHub](https://img.shields.io/github/license/inuwamobarak/pandasAI)
 
 This repository showcases the application of artificial intelligence directly to the traditional Pandas library. pandasAI enables data analysis with Python by utilizing text-based, human-like conversations. This is made possible using GenAI, allowing users to perform data analysis tasks with simple text prompts, eliminating the need for traditional code-based workflows.
 
