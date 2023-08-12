@@ -33,7 +33,7 @@ To use the PandasAI library, follow these steps:
 
 # Getting Started with Pandas AI
 
-This guide will walk you through the process of getting started with PandasAI. There are two approaches you can take to use PandasAI: using LangChain models and a direct implementation.
+This guide will walk you through the process of getting started with PandasAI. There are two approaches you can take to use PandasAI: using LangChain models and direct implementation.
 
 ## Using LangChain Models
 
